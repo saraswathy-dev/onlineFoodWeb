@@ -87,3 +87,27 @@
     </div>
   </div>
 </div>
+
+<!-- foodItems -->
+
+<div class="container foodItem">
+  <div class="row">
+    <h2>Customers favourite food</h2>
+    <div class="col-lg-3 orderFood" *ngFor="let fd of foodItem">
+      <div class="card" style="width: 18rem">
+        <img
+          src="{{ fd.foodImg }}"
+          class="card-img-top"
+          alt="{{ fd.foodName }}"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ fd.foodName }}</h5>
+          <p class="card-text">
+            {{ fd.foodDetails }}
+          </p>
+          <a href="#" class="btn btn-primary">ORDER NOW</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
