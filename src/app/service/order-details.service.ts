@@ -15,7 +15,8 @@ export class OrderDetailsService {
       foodName:"Pizza",
       foodDetails:"mushroom with cheese",
       foodPrice:10,
-      foodImg:"../../../assets/img/pizzaHomeimg.jpg"
+      foodImg:"../../../assets/img/pizzaHomeimg.jpg",
+    
       
     },
     {
