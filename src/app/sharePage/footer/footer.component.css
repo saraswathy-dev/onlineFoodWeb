@@ -1,0 +1,45 @@
+.footer{
+    overflow: hidden;
+    position: sticky;
+    top:100%;
+    background-color:black;
+font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    }
+
+h3{
+    color: white;
+    font-size: 20px;
+}
+p{
+    font-size: 14px;
+    font-weight:lighter;
+    color: white;
+}
+.navlink{
+    padding-top: 10px;
+}
+.navlink a{
+    padding: 0px 5px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  
+    
+}
+.navlink a:hover{
+    color:var(--primary-color);
+}
+.socialLink{
+    padding-top: 10px;
+}
+.socialLink a{
+    padding: 0px 10px;
+    font-size: 16px;
+    color: white;
+    
+   
+} 
+.socialLink a:hover{
+    color:var(--primary-color);
+}

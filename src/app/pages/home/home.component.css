@@ -1,0 +1,102 @@
+img{
+    height:800px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-caption{
+    color:var(white);
+    font-weight: 900;
+    font-size: larger;
+  
+}
+h1{
+    position:absolute;
+    color:white;
+    top:50%;
+    left:35%;
+    font-size: 60px;
+
+}
+.carousel-item a{
+    position:absolute;
+    background-color: white;
+    color:var(--primary-color);
+    top:60%;
+    left:35%;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.carousel-item a:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* howToOrder */
+.howToOrder h3{
+   padding-left: 50%;
+   padding-top: 50px;
+}
+.howToOrder p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: var(--primary-color);
+  padding-left: 40%;
+    font-size:50px;
+    font-weight: 800;
+}
+
+.location a i{
+    color: var(--primary-color);
+    font-size: 50px;
+    padding-left: 100px;
+    
+}
+.location h6{
+    font-size: 20px;
+    font-weight: 800;
+}
+.location p{
+    font-size: 12px;
+    color: black;
+    padding-left: 20px;
+   
+}
+.restaurant a i{
+    color: var(--primary-color);
+    font-size: 50px;
+    padding-left: 150px;
+   
+}
+.restaurant h6{
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+.restaurant p{
+    font-size: 12px;
+    color: black;
+    padding-left: 10px;
+   
+}
+.pay a i{
+    color: var(--primary-color);
+    font-size: 50px;
+    padding-left: 150px;
+   
+}
+.pay h6{
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 100px;
+    
+}
+.pay p{
+    font-size: 12px;
+    color: black;
+    padding-left: 90px;
+   
+}
+
