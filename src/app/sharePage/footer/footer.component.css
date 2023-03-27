@@ -1,6 +1,6 @@
 .footer{
     overflow: hidden;
-    position: sticky;
+    position:fixed;
     top:100%;
     background-color:black;
 font-family: Arial, Helvetica, sans-serif;

@@ -19,3 +19,9 @@ nav{
     background-color:rgb(252, 252, 254);
 
 }
+@media only screen and (max-width:768px){
+    .navbar-nav{
+        text-align: center;
+    }
+
+}

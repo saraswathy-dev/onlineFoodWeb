@@ -1,0 +1,25 @@
+h1{
+   font-weight: bolder;
+}
+form{
+    background-color: rgb(245, 246, 248);
+margin: 5px;
+    align-items: start;
+    text-align: start;
+    padding: 5px,5px;
+}
+button{
+    border:1px solid black;
+}
+h1{
+    margin-top: 100px;
+}
+@media only screen and (max-width:768px){
+    h1{
+        margin-top: 150px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}

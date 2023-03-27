@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupusers": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "fullName": "saraswathy",
+      "mobile": 123345678,
+      "email": "saras@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "fullName": "gopi",
+      "mobile": 2356487,
+      "email": "gopi@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

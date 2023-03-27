@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import { Component,OnInit  } from '@angular/core';
+import { OrderDetailsService } from 'src/app/service/order-details.service';
+
 
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.css']
 })
-export class MenuComponent {
+export class MenuComponent implements OnInit {
+  constructor(private service:OrderDetailsService){}
+
+  foodItem:any;
+  ngOnInit():void{
+    this.foodItem=this.service.foodDetails;
+  }
 
 }

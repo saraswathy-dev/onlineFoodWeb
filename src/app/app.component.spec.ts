@@ -32,4 +32,11 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('onlineFoodWeb app is running!');
   });
+
+  describe("Appcomponent1",()=>{
+    it("my testcase",()=>{
+      expect(true).toBe(true);
+    })
+  })
+ 
 });

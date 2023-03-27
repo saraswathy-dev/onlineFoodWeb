@@ -1,1 +1,35 @@
-<p>menu works!</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container foodItem">
+      <h3>Choose Item to be order</h3>
+      <div class="row">
+        <div class="col-lg-3 orderFood" *ngFor="let fd of foodItem">
+          <div class="card" style="width: 18rem">
+            <img
+              src="{{ fd.foodImg }}"
+              class="card-img-top"
+              alt="{{ fd.foodName }}"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ fd.foodName }}</h5>
+              <p>{{ fd.foodPrice }}</p>
+              <p class="card-text">
+                {{ fd.foodDetails }}
+              </p>
+              <a routerLink="menuPage" class="btn btn-primary"
+                >BUY NOW &nbsp;<i class="bi bi-bag"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

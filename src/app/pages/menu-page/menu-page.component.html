@@ -1,0 +1,43 @@
+<div class="container-sm">
+  <a routerLink="../../menu">Back</a>
+  <div class="row">
+    <!-- selected order -->
+    <div class="col-lg-6" *ngIf="menuData">
+      <img src="{{ menuData[0].foodImg }}" width="100%" alt="" />
+      <h2>{{ menuData[0].foodName }}</h2>
+      <p>{{ menuData[0].foodDetails }}</p>
+      <p>{{ menuData[0].foodPrice }}</p>
+    </div>
+
+    <!-- details  -->
+    <div class="col-lg-6">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mobileNumber" class="form-label">Mobile Number</label>
+          <input type="number" class="form-control" id="mobileNumber" />
+        </div>
+
+        <div class="mb-3">
+          <label for="address" class="form-label">Address</label>
+          <textarea class="form-control" id="floatingTextarea"></textarea>
+        </div>
+
+        <button type="submit" class="btn">Place Order</button>
+      </form>
+    </div>
+  </div>
+</div>
